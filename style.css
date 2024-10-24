@@ -1,0 +1,82 @@
+
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .google{
+        height: 722px;
+        background-color: rgb(52, 61, 58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }  
+      .nav-1{
+             display: flex;
+             justify-content: center;
+             justify-content: space-evenly;
+      }
+h1{
+    text-transform: capitalize;
+    font-size: 90px;
+    color: rgb(11, 241, 53);
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+h1:hover{
+    color: aqua;
+} 
+span:hover{
+    color: gold;
+}
+input{
+    width: 700px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    border-bottom: 3px double red;
+    background-color:rgb(60, 90, 80);
+    border-top: 3px double green;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+}
+.nav-1{
+    width: 500px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+p{
+    text-transform: capitalize;
+}
+#id4{
+   width: 500px;
+   height: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 18px;
+   border-radius: 30px;
+   align-items: center;
+   color: white;
+   cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(111, 136, 220);
+}
+a:hover{
+    background-color: rgb(50, 47, 50);
+    border-radius: 10px;
+}
+#id-p:hover{
+    background-color: rgb(59, 53, 43);
+    border-radius: 10px;
+}
+   
